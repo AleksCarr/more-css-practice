@@ -1,1 +1,43 @@
-/* Add your CSS here */
+h1{
+  font-size: 100px;
+}
+
+*{
+  text-align: center;
+}
+
+img{
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.box{
+display: flex;
+justify-content: space-around;
+}
+
+.boxitems{
+border: 5px solid #fff;
+background-color: crimson;
+height: 25px;
+flex: 1;
+color: white;
+}
+
+a{
+  color: white;
+}
+
+.toollist {
+  flex: 3;
+}
+.faculty,
+.schedule,
+.toollist{
+  background-color: crimson;
+  flex: initial;
+  width: 125px;
+  vertical-align: center;
+  font-size: 25px;
+}

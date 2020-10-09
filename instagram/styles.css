@@ -1,1 +1,41 @@
-/* Add your CSS here */
+h2{
+  color: grey;
+}
+
+.about{
+  text-align: left;
+  display: block;
+  border: 0.5px solid lightgrey;
+  width: 20%;
+  float:left;
+}
+
+.box{
+  font-size: 20px;
+  background-color: white;
+  flex: 1;
+  height: 300px;
+}
+.a{
+  text-decoration: none;
+  color:black;
+}
+
+.boxitems{
+border: 5px solid #fff;
+background-color: white;
+height: 45px;
+flex: 1;
+color: white;
+}
+
+.info{
+  display: block;
+  text-align:left;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.company,.press,.jobs,.terms,.privacy,.platform,.libraries{
+  height: 50px;
+}
