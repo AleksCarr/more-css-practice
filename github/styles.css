@@ -4,9 +4,48 @@
 
 .color{
   color: grey;
-  font-size: 20px;
+  font-size: 27px;
 }
 
 h1{
+  font-size: 50px;
+}
+
+a{
+  text-decoration: none;
+  font-size: 25px;
+}
+
+h3{
+  font-size: 30px;
+}
+
+p{
+  color: grey;
+}
+
+.flex{
+  display: flex;
+}
+
+.box{
+display: flex;
+justify-content: space-around;
+}
+
+.boxes{
+  border: 10px solid #fff;
+  background-color: white;
+  height: 25px;
+  flex: 3;
+  color: white;
+}
+
+strong{
+  font-size: 22px;
+  color: black;
+}
+
+.font{
   font-size: 50px;
 }

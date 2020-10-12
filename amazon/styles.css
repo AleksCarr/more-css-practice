@@ -1,1 +1,26 @@
-/* Add your CSS here */
+h1{
+
+  color: rgb(255,153,102);
+}
+
+.Flex{
+  display:flex;
+  justify-content:space-around;
+}
+
+.items{
+  border: 30px solid #fff;
+  background-color: white;
+  height: 25px;
+  flex: 3;
+  color: blue;
+}
+
+.box{
+  display: flex;
+  justify-content:center;
+}
+
+.a{
+  text-decoration: none;
+}
