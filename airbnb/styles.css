@@ -1,1 +1,71 @@
-/* Add your CSS here */
+h3{
+  font-size: 40px;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+}
+
+.item{
+  border: 0.5px solid grey;
+  background-color: white;
+  height: 50px;
+  flex: 1;
+  color: black;
+  text-align: left;
+  font-size: 25px;
+}
+
+.image{
+  background-image: url(https://via.placeholder.com/100x65.png)
+
+}
+
+
+.head{
+  font-size: 25px;
+}
+
+.center{
+  display: flex;
+  justify-content: space-around;
+}
+
+.items{
+border: 0.5px solid grey;
+background-color: white;
+height: 30px;
+flex: 1;
+color: black;
+text-align: left;
+font-size: 15px;
+color: grey;
+}
+
+input{
+  width: 700px;
+  height: 40px;
+  font-size: 25px;
+  color: grey;
+}
+
+.Where{
+  width: 1410px;
+}
+
+h1{
+  background-image: url(https://via.placeholder.com/350x65.png);
+  height: 65px;
+}
+
+select{
+  width: 1410px;
+}
+
+button{
+  background-color: crimson;
+  width: 1410px;
+  height: 50px;
+  color:white;
+}
